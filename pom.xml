@@ -5,6 +5,7 @@
     <groupId>com.xclyforever</groupId>
     <artifactId>common-core</artifactId>
     <version>1.2-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -40,6 +41,15 @@
     </scm>
     <build>
         <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
             <!-- 发布插件 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -51,7 +61,7 @@
                     <!--git密码-->
                     <password>lygdc1314</password>
                     <!--mvn目标指令-->
-                    <goals>-f pom.xml deploy</goals>
+                    <goals>deploy</goals>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
