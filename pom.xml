@@ -6,12 +6,6 @@
     <artifactId>common-core</artifactId>
     <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-    </properties>
 
     <distributionManagement>
         <repository>
