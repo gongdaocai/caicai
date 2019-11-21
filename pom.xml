@@ -4,7 +4,7 @@
 
     <groupId>com.xclyforever</groupId>
     <artifactId>common-core</artifactId>
-    <version>1.9-SNAPSHOT</version>
+    <version>1.9</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -35,7 +35,7 @@
         <developerConnection>scm:git:https://github.com/gongdaocai/caicai.git</developerConnection>
         <!--需要打包项目的git地址-->
         <connection>scm:git:https://github.com/gongdaocai/caicai.git</connection>
-        <tag>v1.1</tag>
+        <tag>v1.9</tag>
     </scm>
     <build>
         <plugins>
