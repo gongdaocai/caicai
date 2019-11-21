@@ -1,5 +1,4 @@
 HELP.md
-/target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -13,7 +12,6 @@ HELP.md
 
 ### IntelliJ IDEA ###
 .idea
-*.iws
 *.iml
 *.ipr
 
